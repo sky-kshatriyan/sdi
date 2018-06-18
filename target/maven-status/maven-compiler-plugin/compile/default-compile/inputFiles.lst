@@ -1,0 +1,17 @@
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/types/SsiGenerator.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/IncludeTagFilter.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/Configuration.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/SyntheticResourceFilter.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/pathmatcher/PrefixPathMatcher.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/pathmatcher/RegexPathMatcher.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/IncludeGenerator.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/types/JsiGenerator.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/package-info.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/pathmatcher/package-info.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/package-info.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/ConfigurationWhiteboard.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/types/EsiGenerator.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/pathmatcher/PathMatcher.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/types/package-info.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/CacheControlFilter.java
+/Users/shashi/Downloads/sdi310/src/main/java/org/apache/sling/dynamicinclude/generator/IncludeGeneratorWhiteboard.java

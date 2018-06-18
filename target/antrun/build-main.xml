@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <script language="javascript">var System = java.lang.System;
+                                    var bree = &quot;JavaSE-1.6&quot;;
+                                    var skipAnimalSniffer = false;
+                                    var animalSnifferSignaturesVersion = &quot;6&quot;;
+                                    var slingJavaVersion = System.getProperty(&quot;sling.java.version&quot;);
+                                    if (!slingJavaVersion) {
+                                        slingJavaVersion = project.getProperty(&quot;sling.java.version&quot;);
+                                    }
+                                    if (slingJavaVersion == &quot;7&quot;) {
+										animalSnifferSignaturesVersion = &quot;7&quot;;
+                                        bree = &quot;JavaSE-1.7&quot;;
+	                                    System.out.println(&quot;Setting Bundle-RequiredExecutionEnvironment=&quot; + bree + &quot; from sling.java.version=&quot; + slingJavaVersion);
+	                                } else if ( slingJavaVersion == &quot;8&quot;) {
+                                        // there are no published signatures for Java 1.8, so skip execution. However, we also need a valid
+                                        // artifact in the signature, so fallback to the 1.6 signatures and skip checking entirely
+                                        // see also https://github.com/mojohaus/animal-sniffer/issues/1
+	                                    skipAnimalSniffer = true;
+	                                    bree = &quot;JavaSE-1.8&quot;;
+	                                    System.out.println(&quot;Setting Bundle-RequiredExecutionEnvironment=&quot; + bree + &quot; from sling.java.version=&quot; + slingJavaVersion);
+	                                } else if (slingJavaVersion != &quot;6&quot;) {
+                                        System.out.println(&quot;Unsupported sling.java.version=&quot; + slingJavaVersion + &quot;; must be 6, 7 or 8.&quot;);
+                                        throw &quot;sling.java.version must be 6, 7 or 8&quot;;
+                                    }
+                                    project.setProperty(&quot;sling.bree&quot;, bree);
+                                    project.setProperty(&quot;animal.sniffer.skip&quot;, skipAnimalSniffer);
+                                    project.setProperty(&quot;sling.animalSignatures.version&quot;, animalSnifferSignaturesVersion);</script>
+</target>
+</project>

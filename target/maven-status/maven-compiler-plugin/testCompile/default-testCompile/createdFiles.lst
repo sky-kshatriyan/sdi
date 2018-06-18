@@ -1,0 +1,4 @@
+org/apache/sling/dynamicinclude/ConfigurationTest.class
+org/apache/sling/dynamicinclude/pathmatcher/RegexPathMatcherTest.class
+org/apache/sling/dynamicinclude/ConfigurationWhiteboardTest.class
+org/apache/sling/dynamicinclude/pathmatcher/PrefixPathMatcherTest.class

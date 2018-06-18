@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1529334078642
+Build-Jdk: 1.8.0_161
+Built-By: shashi
+Bundle-Category: sling
+Bundle-Description: Dynamic Include filter for Apache Sling
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Sling Dynamic Include
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.apache.sling.dynamic-include
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 3.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.sling.dynamicinclude.pathmatcher;version="3.0
+ .0",org.apache.sling.dynamicinclude.generator.types;version="3.0.0";use
+ s:="org.apache.sling.dynamicinclude.generator,org.osgi.service.componen
+ t",org.apache.sling.dynamicinclude.generator;version="3.0.0",org.apache
+ .sling.dynamicinclude;version="4.0.0";uses:="javax.servlet,org.apache.s
+ ling.api,org.apache.sling.dynamicinclude.generator,org.apache.sling.dyn
+ amicinclude.pathmatcher,org.osgi.service.component"
+Import-Package: javax.servlet,javax.servlet.http,org.apache.commons.lang
+ ;version="[2.4,3)",org.apache.sling.api;version="[2.1,3)",org.apache.sl
+ ing.api.request;version="[2.1,3)",org.apache.sling.api.resource;version
+ ="[2.1,3)",org.apache.sling.commons.osgi;version="[2.2,3)",org.apache.s
+ ling.dynamicinclude.generator;version="[3.0,4)",org.apache.sling.dynami
+ cinclude.pathmatcher;version="[3.0,4)",org.osgi.framework;version="[1.4
+ ,2)",org.osgi.service.component;version="[1.0,2)",org.slf4j;version="[1
+ .7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Service-Component: OSGI-INF/org.apache.sling.dynamicinclude.Configuratio
+ nWhiteboard.xml,OSGI-INF/org.apache.sling.dynamicinclude.generator.Incl
+ udeGeneratorWhiteboard.xml,OSGI-INF/org.apache.sling.dynamicinclude.gen
+ erator.types.EsiGenerator.xml,OSGI-INF/org.apache.sling.dynamicinclude.
+ IncludeTagFilter.xml,OSGI-INF/org.apache.sling.dynamicinclude.generator
+ .types.JsiGenerator.xml,OSGI-INF/org.apache.sling.dynamicinclude.Synthe
+ ticResourceFilter.xml,OSGI-INF/org.apache.sling.dynamicinclude.CacheCon
+ trolFilter.xml,OSGI-INF/org.apache.sling.dynamicinclude.Configuration.x
+ ml,OSGI-INF/org.apache.sling.dynamicinclude.generator.types.SsiGenerato
+ r.xml
+Tool: Bnd-3.0.0.201509101326

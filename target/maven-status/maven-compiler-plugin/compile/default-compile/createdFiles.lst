@@ -1,0 +1,17 @@
+org/apache/sling/dynamicinclude/package-info.class
+org/apache/sling/dynamicinclude/IncludeTagFilter.class
+org/apache/sling/dynamicinclude/pathmatcher/RegexPathMatcher.class
+org/apache/sling/dynamicinclude/generator/IncludeGenerator.class
+org/apache/sling/dynamicinclude/generator/types/JsiGenerator.class
+org/apache/sling/dynamicinclude/SyntheticResourceFilter.class
+org/apache/sling/dynamicinclude/generator/IncludeGeneratorWhiteboard.class
+org/apache/sling/dynamicinclude/CacheControlFilter.class
+org/apache/sling/dynamicinclude/generator/package-info.class
+org/apache/sling/dynamicinclude/ConfigurationWhiteboard.class
+org/apache/sling/dynamicinclude/pathmatcher/PrefixPathMatcher.class
+org/apache/sling/dynamicinclude/Configuration.class
+org/apache/sling/dynamicinclude/generator/types/SsiGenerator.class
+org/apache/sling/dynamicinclude/pathmatcher/PathMatcher.class
+org/apache/sling/dynamicinclude/pathmatcher/package-info.class
+org/apache/sling/dynamicinclude/generator/types/EsiGenerator.class
+org/apache/sling/dynamicinclude/generator/types/package-info.class

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.dynamicinclude.SyntheticResourceFilter">
+    <OCD id="org.apache.sling.dynamicinclude.SyntheticResourceFilter" name="%org.apache.sling.dynamicinclude.SyntheticResourceFilter.name" description="%org.apache.sling.dynamicinclude.SyntheticResourceFilter.description">
+        <AD id="service.ranking" type="Integer" default="-2147483648" name="%org.apache.sling.dynamicinclude.SyntheticResourceFilter.service.ranking.name" description="%org.apache.sling.dynamicinclude.SyntheticResourceFilter.service.ranking.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.dynamicinclude.SyntheticResourceFilter">
+        <Object ocdref="org.apache.sling.dynamicinclude.SyntheticResourceFilter"/>
+    </Designate>
+</metatype:MetaData>

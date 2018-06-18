@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.dynamicinclude.Configuration">
+    <OCD id="org.apache.sling.dynamicinclude.Configuration" name="%org.apache.sling.dynamicinclude.Configuration.name" description="%org.apache.sling.dynamicinclude.Configuration.description">
+        <AD id="include-filter.config.enabled" type="Boolean" default="false" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.enabled.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.enabled.description"/>
+        <AD id="include-filter.config.path" type="String" default="/content" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.path.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.path.description"/>
+        <AD id="include-filter.config.resource-types" type="String" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.resource-types.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.resource-types.description" cardinality="2147483647"/>
+        <AD id="include-filter.config.include-type" type="String" default="SSI" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.include-type.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.include-type.description">
+            <Option value="SSI" label="Apache SSI"/>
+            <Option value="ESI" label="ESI"/>
+            <Option value="JSI" label="Javascript"/>
+        </AD>
+        <AD id="include-filter.config.add_comment" type="Boolean" default="false" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.add_comment.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.add_comment.description"/>
+        <AD id="include-filter.config.selector" type="String" default="nocache" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.selector.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.selector.description"/>
+        <AD id="include-filter.config.ttl" type="String" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.ttl.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.ttl.description"/>
+        <AD id="include-filter.config.required_header" type="String" default="Server-Agent=Communique-Dispatcher" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.required_header.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.required_header.description"/>
+        <AD id="include-filter.config.ignoreUrlParams" type="String" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.ignoreUrlParams.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.ignoreUrlParams.description" cardinality="2147483647"/>
+        <AD id="include-filter.config.rewrite" type="Boolean" default="false" name="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.rewrite.name" description="%org.apache.sling.dynamicinclude.Configuration.include-filter.config.rewrite.description"/>
+    </OCD>
+    <Designate pid="org.apache.sling.dynamicinclude.Configuration" factoryPid="org.apache.sling.dynamicinclude.Configuration">
+        <Object ocdref="org.apache.sling.dynamicinclude.Configuration"/>
+    </Designate>
+</metatype:MetaData>
